@@ -7,5 +7,5 @@ O aplicativo surgiu com a ideia de facilitar, aos jogadores casuais de esportes,
 pagamentos efetuados até às peladas próximas que sejam abertas.
 
 ### Tecnologias utilizadas
-* React Native
+* Kotlin
 
