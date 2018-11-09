@@ -1,4 +1,4 @@
-# Appickup - Aplicativo de peladas
+# Pick app game - Aplicativo de peladas
 
 ## Desenvolvido para a cadeira de Desenvolvimento Mobile da UFRPE
 
