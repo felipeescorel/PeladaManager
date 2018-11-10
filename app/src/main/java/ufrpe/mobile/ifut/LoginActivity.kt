@@ -15,9 +15,10 @@ class LoginActivity : AppCompatActivity() {
             if (loginText.text.toString().equals("admin")) {
                 if (passwordText.text.toString().equals("admin")) {
 
+                } else {
+                    loginMessage.text = getString(R.string.wrongPass)
+                    loginMessage.visibility = View.VISIBLE
                 }
-                loginMessage.text = getString(R.string.wrongPass)
-                loginMessage.visibility = View.VISIBLE
             } else {
                 loginMessage.text = getString(R.string.loginNotFound)
                 loginMessage.visibility = View.VISIBLE
