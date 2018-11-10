@@ -1,5 +1,6 @@
 package ufrpe.mobile.ifut
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -14,7 +15,8 @@ class LoginActivity : AppCompatActivity() {
         signInBtn.setOnClickListener {
             if (loginText.text.toString().equals("admin")) {
                 if (passwordText.text.toString().equals("admin")) {
-
+                    val intent = Intent(this, UserHubActivity::class.java)
+                    startActivity(intent)
                 } else {
                     loginMessage.text = getString(R.string.wrongPass)
                     loginMessage.visibility = View.VISIBLE
