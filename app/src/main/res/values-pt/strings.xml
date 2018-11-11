@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pick App</string>
+    <string name="signIn">Entrar</string>
+    <string name="register">Registrar</string>
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+    <string name="loginNotFound">Usuario não encontrado</string>
+    <string name="wrongPass">Senha errada</string>
+    <string name="app_logo">App logo</string>
+</resources>
