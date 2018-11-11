@@ -11,4 +11,9 @@
     <string name="menu_soccer">Soccer game</string>
     <string name="menu_volleyball">Volley game</string>
     <string name="menu_baseball">Baseball game</string>
+    <string name="game_date">Game date</string>
+    <string name="game_time">Game time</string>
+    <string name="players_number">How many players on each team?</string>
+    <string name="team_rotation">Will there be players rotation?</string>
+    <string name="save_game">Save game</string>
 </resources>
