@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/fotoUsuario"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:text="Joaozinho Da Silva"
+            android:layout_width="151dp"
+            android:layout_height="31dp"
+            android:id="@+id/nomeUsuario" app:layout_constraintStart_toEndOf="@+id/fotoUsuario"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.095" android:layout_marginTop="44dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <RatingBar
+            android:layout_width="239dp"
+            android:layout_height="47dp"
+            android:id="@+id/ratingBar" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/buscaAmigos"
+            app:layout_constraintHorizontal_bias="0.062" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/fotoUsuario"/>
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="308dp"
+            android:layout_height="190dp"
+            android:scrollbars="vertical" android:id="@+id/friendsList" tools:itemCount="7"
+            tools:listitem="@layout/recycler_view_item" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/buscaAmigos" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.423"
+            app:layout_constraintVertical_bias="0.114"/>
+    <SearchView
+            android:layout_width="308dp"
+            android:layout_height="38dp"
+            android:id="@+id/buscaAmigos" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="216dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"/>
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" app:srcCompat="@android:drawable/ic_menu_edit"
+            android:id="@+id/editarPerfil"
+            app:layout_constraintTop_toBottomOf="@+id/nomeUsuario" android:layout_marginEnd="192dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="12dp"
+            app:layout_constraintHorizontal_bias="1.0"/>
+</android.support.constraint.ConstraintLayout>
