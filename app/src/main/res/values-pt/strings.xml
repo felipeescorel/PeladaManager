@@ -23,4 +23,6 @@
     <string name="title_my_games">Meus jogos</string>
     <string name="title_settings">Configurações</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragmento do inicio</string>
 </resources>
