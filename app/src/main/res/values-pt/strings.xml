@@ -16,5 +16,11 @@
     <string name="players_number">Quantos jogadores em cada time?</string>
     <string name="team_rotation">Haverá rotação de jogadores?</string>
     <string name="save_game">Salvar pelada</string>
+    <string name="btnConfirm">Confirmar</string>
+    <string name="title_activity_pelada">Pick App</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_new_game">Criar uma pelada</string>
+    <string name="title_my_games">Meus jogos</string>
+    <string name="title_settings">Configurações</string>
 
 </resources>

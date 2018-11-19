@@ -16,4 +16,10 @@
     <string name="players_number">How many players on each team?</string>
     <string name="team_rotation">Will there be players rotation?</string>
     <string name="save_game">Save game</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="title_activity_pelada">Pick App</string>
+    <string name="title_home">Home</string>
+    <string name="title_new_game">Create a pick up game</string>
+    <string name="title_my_games">My pick up games</string>
+    <string name="title_settings">Settings</string>
 </resources>
