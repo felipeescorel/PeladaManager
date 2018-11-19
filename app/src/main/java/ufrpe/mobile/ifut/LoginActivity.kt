@@ -15,7 +15,7 @@ class LoginActivity : AppCompatActivity() {
         signInBtn.setOnClickListener {
             if (loginText.text.toString().equals("admin")) {
                 if (passwordText.text.toString().equals("admin")) {
-                    val intent = Intent(this, InviteActivity::class.java)
+                    val intent = Intent(this, PeladaActivity::class.java)
                     startActivity(intent)
                 } else {
                     loginMessage.text = getString(R.string.wrongPass)
