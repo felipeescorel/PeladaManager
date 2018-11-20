@@ -22,12 +22,13 @@
 
     <FrameLayout
             android:id="@+id/pelada_fragment"
-            android:layout_width="395dp"
-            android:layout_height="512dp"
+            android:layout_width="644dp"
+            android:layout_height="244dp"
             app:layout_constraintBottom_toTopOf="@+id/navigation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.589">
 
     </FrameLayout>
 
