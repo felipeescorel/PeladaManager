@@ -26,5 +26,10 @@ class LoginActivity : AppCompatActivity() {
                 loginMessage.visibility = View.VISIBLE
             }
         }
+
+        registerBtn.setOnClickListener {
+            val intent = Intent(this, NovoUsuarioActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -3,7 +3,6 @@
     <string name="signIn">Entrar</string>
     <string name="register">Registrar</string>
     <string name="login">Login</string>
-    <string name="password">Senha</string>
     <string name="loginNotFound">Usuario não encontrado</string>
     <string name="wrongPass">Senha errada</string>
     <string name="app_logo">App logo</string>
@@ -22,7 +21,8 @@
     <string name="title_new_game">Criar uma pelada</string>
     <string name="title_my_games">Meus jogos</string>
     <string name="title_settings">Configurações</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Fragmento do inicio</string>
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="phone">Telefone</string>
 </resources>

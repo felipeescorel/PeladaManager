@@ -33,6 +33,7 @@ class PeladaActivity : AppCompatActivity() {
         setContentView(R.layout.activity_pelada)
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        navigation.setSelectedItemId(R.id.navigation_home)
     }
 
     private fun openFragment(fragment: Fragment) {
