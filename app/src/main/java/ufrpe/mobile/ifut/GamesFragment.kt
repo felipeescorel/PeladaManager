@@ -52,19 +52,9 @@ class GamesFragment : Fragment() {
         return view
     }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is OnListFragmentInteractionListener) {
-            listener = context
-        } else {
-            throw RuntimeException(context.toString() + " must implement OnListFragmentInteractionListener")
-        }
-    }
 
-    override fun onDetach() {
-        super.onDetach()
-        listener = null
-    }
+
+
 
     /**
      * This interface must be implemented by activities that contain this
@@ -89,7 +79,7 @@ class GamesFragment : Fragment() {
 
         // TODO: Customize parameter initialization
         @JvmStatic
-        fun newInstance(columnCount: Int) =
+        fun newInstance(columnCount: Int):GamesFragment =
             GamesFragment().apply {
                 arguments = Bundle().apply {
                     putInt(ARG_COLUMN_COUNT, columnCount)

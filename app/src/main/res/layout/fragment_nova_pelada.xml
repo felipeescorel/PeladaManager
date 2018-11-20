@@ -14,7 +14,7 @@
             android:layout_marginEnd="4dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintHorizontal_bias="0.0"
-            android:id="@+id/recyclerView" android:layout_marginTop="156dp" app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/amigosConvite" android:layout_marginTop="156dp" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.937"/>
     <android.support.design.widget.FloatingActionButton
@@ -33,7 +33,7 @@
             android:clickable="true"
             android:id="@+id/mapPicker" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/datePicker" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/recyclerView" android:layout_marginEnd="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/amigosConvite" android:layout_marginEnd="48dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.218"
     />
     <EditText
@@ -46,6 +46,6 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.228"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/amigosConvite"
             app:layout_constraintVertical_bias="0.0"/>
 </android.support.constraint.ConstraintLayout>

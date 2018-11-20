@@ -16,9 +16,13 @@ class PeladaActivity : AppCompatActivity() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_new_game -> {
+                val novaPelada = NovaPelada.newInstance()
+                openFragment(novaPelada)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_my_games -> {
+                val gamesFragment =  GamesFragment.newInstance(5)
+                openFragment(gamesFragment)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_settings -> {
