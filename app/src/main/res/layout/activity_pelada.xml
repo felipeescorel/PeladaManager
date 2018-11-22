@@ -20,15 +20,4 @@
             app:itemTextColor="@color/white"
             app:menu="@menu/navigation" app:labelVisibilityMode="labeled"/>
 
-    <FrameLayout
-            android:id="@+id/pelada_fragment"
-            android:layout_width="395dp"
-            android:layout_height="512dp"
-            app:layout_constraintBottom_toTopOf="@+id/navigation"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-    </FrameLayout>
-
 </android.support.constraint.ConstraintLayout>

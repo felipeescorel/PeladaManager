@@ -25,4 +25,11 @@
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="phone">Phone</string>
+    <string name="nameGame">Name of the Game</string>
+    <string name="other">Other</string>
+    <string name="location">Location</string>
+    <string name="logout">Logout</string>
+    <string name="friends">Friends</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="invite_friend">Invite a Friend</string>
 </resources>

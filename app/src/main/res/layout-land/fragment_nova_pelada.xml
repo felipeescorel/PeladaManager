@@ -8,15 +8,14 @@
     <!-- TODO: Update blank fragment layout -->
 
     <android.support.v7.widget.RecyclerView
-            android:layout_width="0dp"
-            android:layout_height="292dp"
-            tools:listitem="@layout/recycler_view_item_2" tools:itemCount="5" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="4dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_width="397dp"
+            android:layout_height="233dp"
+            tools:listitem="@layout/recycler_view_item_2" tools:itemCount="5"
             android:id="@+id/amigosConvite" android:layout_marginTop="156dp" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.937"/>
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="12dp"
+    />
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,16 +23,16 @@
             android:ems="10"
             android:id="@+id/nomePelada"
             android:hint="@string/nameGame"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
-            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/tfDate"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp" android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/tfDate"/>
     <RadioGroup
             android:layout_width="394dp"
             android:layout_height="68dp"
             android:id="@+id/radioGroup" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp">
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintHorizontal_bias="1.0">
         <android.support.constraint.ConstraintLayout
                 android:layout_width="396dp"
                 android:layout_height="match_parent" android:layout_weight="1">
@@ -68,21 +67,16 @@
             android:layout_height="wrap_content"
             android:inputType="date"
             android:ems="10"
-            android:id="@+id/tfDate"
-            android:hint="@string/game_date" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/nomePelada" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/tfLocal" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="24dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="24dp"/>
+            tools:layout_editor_absoluteX="32dp" android:id="@+id/tfDate"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/nomePelada"
+            android:layout_marginBottom="32dp" app:layout_constraintBottom_toTopOf="@+id/tfLocal"
+            android:hint="@string/game_date"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPostalAddress"
             android:ems="10"
-            android:id="@+id/tfLocal"
-            android:hint="@string/location" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/tfDate" android:layout_marginBottom="24dp"
-            app:layout_constraintBottom_toTopOf="@+id/amigosConvite" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="24dp"/>
+            tools:layout_editor_absoluteX="31dp" android:id="@+id/tfLocal" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/tfDate" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="32dp" android:hint="@string/location"/>
 </android.support.constraint.ConstraintLayout>

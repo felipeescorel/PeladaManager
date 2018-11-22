@@ -9,6 +9,7 @@
     <string name="menu_basketball">Jogo de basquete</string>
     <string name="menu_soccer">Jogo de futebol</string>
     <string name="menu_volleyball">Jogo de vôlei</string>
+    <string name="other">Outro</string>
     <string name="menu_baseball">Jogo de baseball</string>
     <string name="game_date">Dia do jogo</string>
     <string name="game_time">Hora do jogo</string>
@@ -25,4 +26,10 @@
     <string name="email">Email</string>
     <string name="password">Senha</string>
     <string name="phone">Telefone</string>
+    <string name="nameGame">Nome da pelada</string>
+    <string name="location">Local</string>
+    <string name="logout">Sair</string>
+    <string name="friends">Amigos</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="invite_friend">Convide um amigo</string>
 </resources>

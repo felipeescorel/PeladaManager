@@ -10,13 +10,13 @@ import android.view.ViewGroup
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [NovaPelada.OnFragmentInteractionListener] interface
+ * [NovaPeladaActivity.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [NovaPelada.newInstance] factory method to
+ * Use the [NovaPeladaActivity.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class NovaPelada : Fragment() {
+class NovaPeladaActivity : Fragment() {
 
 
     override fun onCreateView(
@@ -29,7 +29,7 @@ class NovaPelada : Fragment() {
         return inflater.inflate(R.layout.fragment_nova_pelada, container, false)
     }
     companion object {
-        fun newInstance(): NovaPelada = NovaPelada()
+        fun newInstance(): NovaPeladaActivity = NovaPeladaActivity()
     }
     }
 
