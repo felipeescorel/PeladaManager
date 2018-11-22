@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/newName"
+            android:hint="@string/name" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/newEmail" app:layout_constraintBottom_toTopOf="@+id/newPassword"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/newEmail"
+            android:hint="@string/email" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/newName" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="24dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/newPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            android:hint="@string/password"
+            app:layout_constraintTop_toBottomOf="@+id/newName" app:layout_constraintBottom_toTopOf="@+id/novoTelefone"
+            android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+    <Button
+            android:text="@string/btnConfirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/newConfirmBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginBottom="200dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="40dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="40dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/novoTelefone" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/phone"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintTop_toBottomOf="@+id/newPassword"
+            app:layout_constraintBottom_toTopOf="@+id/newConfirmBtn" android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+</android.support.constraint.ConstraintLayout>

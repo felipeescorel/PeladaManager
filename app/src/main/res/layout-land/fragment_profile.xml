@@ -1,57 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context=".ProfileFragment">
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".ProfileFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
 
     <android.support.v7.widget.RecyclerView
-            android:layout_width="372dp"
-            android:layout_height="165dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             tools:listitem="@layout/recycler_view_item_1"
             android:id="@+id/listaAmigosPerfil"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
-            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/imgvProfile"
-            app:layout_constraintHorizontal_bias="0.54" app:layout_constraintVertical_bias="1.0"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgvProfile"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintVertical_bias="1.0"/>
     <TextView
             android:text="David Pierre"
-            android:layout_width="110dp"
-            android:layout_height="21dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/userName" tools:text="David Pierre"
-            android:layout_marginEnd="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/ratingBar"
-            app:layout_constraintStart_toEndOf="@+id/imgvProfile" android:layout_marginStart="24dp"
-            android:capitalize="none"/>
+            android:capitalize="none"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+            app:layout_constraintBottom_toTopOf="@+id/listaAmigosPerfil" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
     <RatingBar
-            android:layout_width="243dp"
-            android:layout_height="43dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="32dp" android:id="@+id/ratingBar" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:id="@+id/ratingBar"
             style="@android:style/Widget.DeviceDefault.RatingBar"
             android:numStars="5"
-            android:isIndicator="true" android:rating="3.7" app:layout_constraintStart_toEndOf="@+id/imgvProfile"
-            android:layout_marginStart="16dp"/>
+            android:isIndicator="true" android:rating="3.7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/userName" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"/>
     <android.support.design.widget.FloatingActionButton
             android:src="@android:drawable/ic_menu_edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:id="@+id/editarPerfil"
-            android:layout_marginStart="8dp"
-            app:layout_constraintStart_toEndOf="@+id/userName" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/ratingBar" app:layout_constraintHorizontal_bias="0.697"
-            android:layout_marginBottom="32dp" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.120000005"/>
+            app:layout_constraintStart_toEndOf="@+id/userName"
+            android:layout_marginStart="32dp" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBar"/>
     <ImageView
             android:src="@drawable/profile"
-            android:layout_width="129dp"
-            android:layout_height="128dp"
-            android:id="@+id/imgvProfile" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" android:contentDescription="@android:string/untitled"/>
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgvProfile"
+            android:contentDescription="@android:string/untitled"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/ratingBar"/>
 </android.support.constraint.ConstraintLayout>

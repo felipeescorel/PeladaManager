@@ -7,6 +7,6 @@ class NovoUsuarioActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_novo_usuario)
+        setContentView(R.layout.activity_newuser)
     }
 }

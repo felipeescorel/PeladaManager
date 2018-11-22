@@ -26,7 +26,7 @@ class NovaPeladaActivity : Fragment() {
         /*val recyclerView = findViewById(R.id.amigosConvite) as RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this,LinearLayout.VERTICAL,false)*/
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_nova_pelada, container, false)
+        return inflater.inflate(R.layout.fragment_newpickup, container, false)
     }
     companion object {
         fun newInstance(): NovaPeladaActivity = NovaPeladaActivity()

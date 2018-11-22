@@ -70,17 +70,17 @@
             android:id="@+id/loginMessage" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/passwordText" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/signInBtn" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="32dp"
             android:textSize="18sp" android:textColor="@android:color/holo_red_dark" android:visibility="invisible"/>
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="323dp"
-        android:layout_height="218dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/app_logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="218dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/app_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo"/>
 </android.support.constraint.ConstraintLayout>
