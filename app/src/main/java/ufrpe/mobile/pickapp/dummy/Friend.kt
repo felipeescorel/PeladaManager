@@ -1,4 +1,4 @@
-package ufrpe.mobile.ifut.dummy
+package ufrpe.mobile.pickapp.dummy
 
 import java.util.ArrayList
 import java.util.HashMap

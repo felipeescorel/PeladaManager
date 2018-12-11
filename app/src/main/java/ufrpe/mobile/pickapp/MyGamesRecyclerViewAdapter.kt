@@ -1,4 +1,4 @@
-package ufrpe.mobile.ifut
+package ufrpe.mobile.pickapp
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 
-import ufrpe.mobile.ifut.GamesFragment.OnListFragmentInteractionListener
-import ufrpe.mobile.ifut.dummy.DummyContent.DummyItem
+import ufrpe.mobile.pickapp.GamesFragment.OnListFragmentInteractionListener
+import ufrpe.mobile.pickapp.dummy.DummyContent.DummyItem
 
 import kotlinx.android.synthetic.main.fragment_games.view.*
 

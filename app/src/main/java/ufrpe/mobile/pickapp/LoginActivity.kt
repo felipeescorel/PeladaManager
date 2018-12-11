@@ -1,4 +1,4 @@
-package ufrpe.mobile.ifut
+package ufrpe.mobile.pickapp
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity

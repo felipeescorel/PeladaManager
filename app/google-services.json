@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "649683899714",
+    "firebase_url": "https://pickapp-872dd.firebaseio.com",
+    "project_id": "pickapp-872dd",
+    "storage_bucket": "pickapp-872dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649683899714:android:743ec8200148853a",
+        "android_client_info": {
+          "package_name": "ufrpe.mobile.pickapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649683899714-dm7bv5lqb610i9tr53lp11hnatnefi2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIBOIOBHiSks-9-5NC5yfiUX2gmoLTj3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
