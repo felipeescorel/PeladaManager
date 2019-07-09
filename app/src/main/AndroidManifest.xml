@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="ufrpe.mobile.pickapp">
+          package="ufrpe.mobile.ifut">
 
     <application
             android:allowBackup="true"
@@ -9,7 +9,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="ufrpe.mobile.pickapp.LoginActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -18,9 +18,9 @@
         </activity>
 
         <activity
-                android:name="ufrpe.mobile.pickapp.PeladaActivity"
+                android:name=".PeladaActivity"
                 android:label="@string/title_activity_pelada"/>
-        <activity android:name="ufrpe.mobile.pickapp.NovoUsuarioActivity">
+        <activity android:name=".NovoUsuarioActivity">
         </activity>
     </application>
 

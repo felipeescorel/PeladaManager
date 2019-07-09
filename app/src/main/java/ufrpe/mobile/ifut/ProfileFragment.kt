@@ -1,37 +1,35 @@
-package ufrpe.mobile.pickapp
+package ufrpe.mobile.ifut
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import kotlinx.android.synthetic.main.fragment_profile.*
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [SettingsFragment.OnFragmentInteractionListener] interface
+ * [ProfileFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [SettingsFragment.newInstance] factory method to
+ * Use the [ProfileFragment.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class SettingsFragment : Fragment() {
+class ProfileFragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view: View = inflater.inflate(R.layout.fragment_settings, container, false)
-
-//        btnLogout.setOnClickListener {
-//            val intent = Intent(getActivity(), LoginActivity::class.java)
-//            startActivity(intent)
-//        }
-
-        return view
+        return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 
     companion object {
-        fun newInstance() : SettingsFragment = SettingsFragment()
+        fun newInstance(): ProfileFragment = ProfileFragment()
     }
+
+
 }
+

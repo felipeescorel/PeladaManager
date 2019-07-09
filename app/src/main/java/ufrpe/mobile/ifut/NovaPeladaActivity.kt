@@ -1,4 +1,4 @@
-package ufrpe.mobile.pickapp
+package ufrpe.mobile.ifut
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -6,29 +6,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
+
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [ProfileFragment.OnFragmentInteractionListener] interface
+ * [NovaPeladaActivity.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [ProfileFragment.newInstance] factory method to
+ * Use the [NovaPeladaActivity.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class ProfileFragment : Fragment() {
+class NovaPeladaActivity : Fragment() {
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        /*val recyclerView = findViewById(R.id.amigosConvite) as RecyclerView
+        recyclerView.layoutManager = LinearLayoutManager(this,LinearLayout.VERTICAL,false)*/
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        return inflater.inflate(R.layout.fragment_newpickup, container, false)
     }
-
     companion object {
-        fun newInstance(): ProfileFragment = ProfileFragment()
+        fun newInstance(): NovaPeladaActivity = NovaPeladaActivity()
     }
-
-
-}
+    }
 

@@ -1,4 +1,4 @@
-package ufrpe.mobile.pickapp
+package ufrpe.mobile.ifut
 
 import org.junit.Test
 

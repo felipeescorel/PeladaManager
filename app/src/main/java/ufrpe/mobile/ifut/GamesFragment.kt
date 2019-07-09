@@ -1,5 +1,6 @@
-package ufrpe.mobile.pickapp
+package ufrpe.mobile.ifut
 
+import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.GridLayoutManager
@@ -9,8 +10,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-import ufrpe.mobile.pickapp.dummy.DummyContent
-import ufrpe.mobile.pickapp.dummy.DummyContent.DummyItem
+import ufrpe.mobile.ifut.dummy.DummyContent
+import ufrpe.mobile.ifut.dummy.DummyContent.DummyItem
 
 /**
  * A fragment representing a list of Items.
